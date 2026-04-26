@@ -62,7 +62,7 @@ def show_chart(filename, caption=None):
 @st.cache_data
 def load_data():
     
-    path = "data/cleaned/final_dataset.csv""
+    path = "data/cleaned/final_dataset.csv"
     if os.path.exists(path):
         return pd.read_csv(path)
     else: 
