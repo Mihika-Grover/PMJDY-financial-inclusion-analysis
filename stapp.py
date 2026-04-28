@@ -564,7 +564,7 @@ structural conditions are better than outcomes suggest, pointing to implementati
             contrib = M1_COEFS[feat] * z
             contributions.append({
                 "Feature":      feat.replace("_", " ").title(),
-                "Your input":   f"{val:.2f}" if feat != "rural_share" else f"{val*100:.1f}%",
+                "input":   f"{val:.2f}" if feat != "rural_share" else f"{val*100:.1f}%",
                 "National mean":f"{mean:.2f}" if feat != "rural_share" else f"{mean*100:.1f}%",
                 "z-score":      round(z, 2),
                 "Contribution": round(contrib, 4),
