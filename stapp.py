@@ -414,9 +414,7 @@ structural conditions are better than outcomes suggest, pointing to implementati
     with tab2:
         st.subheader("Simulate predicted outcomes for a hypothetical state")
         st.markdown(
-            "Adjust the socioeconomic inputs below. "
-            "The predictions use the exact standardised OLS coefficients from your models — "
-            "not approximations."
+            "Adjust the socioeconomic inputs here "
         )
 
         st.markdown("---")
