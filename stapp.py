@@ -573,7 +573,7 @@ structural conditions are better than outcomes suggest, pointing to implementati
 
         contrib_df = pd.DataFrame(contributions).sort_values("Contribution", key=abs, ascending=False)
         st.dataframe(contrib_df, hide_index=True, use_container_width=True)
-            st.markdown("---")
+        st.markdown("---")
         st.subheader("Inclusion Tier Classifier")
         st.caption(
             "A Random Forest classifier trained on socioeconomic features only — no PMJDY data — "
